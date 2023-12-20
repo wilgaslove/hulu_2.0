@@ -3,8 +3,8 @@
       <ul class="flex flex-grow justify-evenly max-w-2xl">
         <HeaderItem v-for="link of links"
         :key="link.name"
-         :name="link.name" 
-         :Icon="link.icon" />
+        :name="link.name" 
+        :Icon="link.icon" />
         
        
       </ul>
